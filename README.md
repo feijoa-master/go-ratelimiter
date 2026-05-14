@@ -1,7 +1,12 @@
 # go-ratelimiter
+![Tests](https://github.com/feijoa-master/go-ratelimiter/actions/workflows/test.yml/badge.svg)
 A Go library for rate limiting HTTP services.
 Supports three algorithms: Token Bucket, Fixed Window, and Sliding Window.
 ## Installation
+git tag v0.1.0
+
+git push origin v0.1.0
+
 go get github.com/feijoa-master/go-ratelimiter
 ## Usage
 Пример кода
