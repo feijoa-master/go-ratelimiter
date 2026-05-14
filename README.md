@@ -3,11 +3,12 @@
 A Go library for rate limiting HTTP services.
 Supports three algorithms: Token Bucket, Fixed Window, and Sliding Window.
 ## Installation
+```
 git tag v0.1.0
-
 git push origin v0.1.0
-
 go get github.com/feijoa-master/go-ratelimiter
+go get github.com/redis/go-redis/v9
+```
 ## Usage
 Пример кода
 ```
